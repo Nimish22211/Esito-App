@@ -68,7 +68,7 @@ ul > li:hover{
 .card > button{
     background-color: #fff;
     padding:15px;
-    border:none;
+    border:2px solid white;
     border-radius: 99px;
     font-size: 1.2rem;
     margin-top: 25px;
@@ -79,4 +79,33 @@ ul > li:hover{
     background-color: #231538;
     color:white;
     border:2px solid white
+}
+.bugs_error,.bugs_card {
+    color:white;
+    display: flex;
+}
+.bugs_error{
+    margin-top: 100px;
+    align-items: center;
+    flex-direction: column;
+    gap:50px
+}
+.bugs_card{
+    gap:25px
+}
+.error_head, .error_user{
+    display: flex;
+    width:100%;
+}
+.error_head{
+    justify-content: space-between;
+}
+.error_desc{
+    width: 100%;
+}
+.error_desc > p{
+    margin-top: 10px;
+}
+.bugs_card > .card >  button{
+    padding:10px 15px;
 }

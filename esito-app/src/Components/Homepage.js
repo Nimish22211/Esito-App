@@ -34,9 +34,38 @@ function Homepage() {
                     </div>
                     <img src='Images/struggle illus.png' />
                 </div>
-                <h2>Latest Bugs & Errors</h2>
-                <div className="card">
-
+                <div className="bugs_error">
+                    <h2>Latest Bugs & Errors</h2>
+                    <div className="bugs_card">
+                        <div className="card">
+                            <div className="error_head">
+                                <div className="error_user">
+                                    <img src="" alt="avatar" />
+                                    <h3>User Name</h3>
+                                </div>
+                                <p>Posting Time</p>
+                            </div>
+                            <div className="error_desc">
+                                <h3>Error Description</h3>
+                                <p>lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <button>View Post</button>
+                        </div>
+                        <div className="card">
+                            <div className="error_head">
+                                <div className="error_user">
+                                    <img src="" alt="avatar" />
+                                    <h3>User Name</h3>
+                                </div>
+                                <p>Posting Time</p>
+                            </div>
+                            <div className="error_desc">
+                                <h3>Error Description</h3>
+                                <p>lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <button>View Post</button>
+                        </div>
+                    </div>
                 </div>
             </main>
         </div>
