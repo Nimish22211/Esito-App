@@ -37,13 +37,21 @@ ul > li:hover{
     color:white;
     border:2px solid white
 }
+main > div{
+    padding:0 50px
+}
+@media (min-width:1920px){
+    main > div{
+    margin:0 10vw;
+    }
+}
 .logo{
     font-size: 1.5rem;
     font-weight: 700;
 }
 .get-started{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between; /* space between */
     margin-top: 100px;
     color:white
 }
@@ -86,12 +94,15 @@ ul > li:hover{
 }
 .bugs_error{
     margin-top: 100px;
-    align-items: center;
     flex-direction: column;
     gap:50px
 }
+.bugs_error > h2{
+    text-align: center;
+}
 .bugs_card{
-    gap:25px
+    justify-content: space-between; /* space between */
+
 }
 .error_head, .error_user{
     display: flex;
@@ -109,3 +120,128 @@ ul > li:hover{
 .bugs_card > .card >  button{
     padding:10px 15px;
 }
+.nextbtn{
+    background-color: #fff;
+    color:#231538;
+    text-align: center;
+    border-radius: 99px;
+    padding:4px;
+    width:80px;
+    border:1px solid white;
+    height:80px;
+}
+.nextbtn:hover{
+    cursor: pointer;
+    background-color: #231538;
+    color:white;
+    border:2px solid white;
+}
+.secondCard{
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+section > *{
+    color:white;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section > h2{
+    margin: 50px 0px;
+    text-align: center;
+}
+section > .card .plans_card{
+    display: flex;
+    flex-direction: row;
+}
+.plans_card > .features{
+    flex:0.6
+}
+.plans_card > .features > .features_body ul, .plan > .plan_body ul{
+    display: flex;
+    flex-direction: column;
+    gap:0;
+}
+.plan_body > ul > li, .features_body > ul > li{
+    padding: 10px;
+    cursor:auto;
+    color: #52FFF2;
+
+}
+.features_body > ul > li:last-child{
+    border-right:1px solid  #52FFF2;
+    border-bottom:1px solid  #52FFF2 ;
+}
+.features_body > ul > li{
+    border-right:1px solid  #52FFF2;
+}
+.plans_card > .plan{
+    flex:0.2;
+    min-width:max-content
+}
+.plan.paid{
+    flex:0.3
+}
+.features_header{
+    text-align: center;
+    padding: 10px;
+    border-right:1px solid  #52FFF2;
+    border-bottom:1px solid  #52FFF2;
+}
+.plan_header {
+    padding: 10px;
+    gap:0;
+    border-bottom:1px solid white ;
+    text-align: center;
+}
+.plan_header.last, .plan_body.last > ul > li {
+    border-left:1px solid  #52FFF2;
+}
+.plan_body > ul > li:last-child{
+    border-bottom: 1px solid #52FFF2;
+;
+}
+.plan_body > h2, .features_body > h2{
+    text-align: center;
+    border-bottom: 1px solid #52FFF2;
+    padding:5px;
+}
+.plan_body.last > h2 {
+    border-left:1px solid #52FFF2
+}
+.features_body > h2{
+    border-right: 1px solid #52FFF2;
+}
+.plan_body > .enroll{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.emptybox{
+    border-right: 1px solid #52FFF2;
+    height:45px;
+}
+.plan_body > .enroll.last{
+    border-left: 1px solid #52FFF2;
+
+}
+.plan_body > div >button{
+    background-color: #fff;
+    color:#231538;
+    text-align: center;
+    border-radius: 99px;
+    padding:4px;
+    width:80px;
+    border:2px solid white;
+    font-size: 1.25rem;
+    font-weight: 600;
+ }
+ .plan_body > div >button:hover{
+    cursor: pointer;
+    background-color: #231538;
+    color:white;
+    border:2px solid white;
+ }
