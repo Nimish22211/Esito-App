@@ -33,7 +33,7 @@ function Homepage() {
                             </p>
                             <button>Get Started</button>
                         </div>
-                        <img src='Images/struggle illus.png' />
+                        <img src='Images/struggle illus.png' alt="struggling man" />
                     </div>
                     <div className="bugs_error">
                         <h2>Latest Bugs & Errors</h2>
@@ -133,6 +133,51 @@ function Homepage() {
                     </div>
                 </div>
             </section>
+            <section>
+                <h2>Team</h2>
+                <div className="team">
+                    <div>
+                        <img src="Images/avatar.png" alt="avatar" />
+                        <h3>User Name</h3>
+                        <p>Title</p>
+                    </div>
+                    <div>
+                        <img src="Images/avatar.png" alt="avatar" />
+                        <h3>User Name</h3>
+                        <p>Title</p>
+                    </div>
+                    <div>
+                        <img src="Images/avatar.png" alt="avatar" />
+                        <h3>User Name</h3>
+                        <p>Title</p>
+                    </div>
+                    <div>
+                        <img src="Images/avatar.png" alt="avatar" />
+                        <h3>User Name</h3>
+                        <p>Title</p>
+                    </div>
+                    <div>
+                        <img src="Images/avatar.png" alt="avatar" />
+                        <h3>User Name</h3>
+                        <p>Title</p>
+                    </div>
+                    <div>
+                        <img src="Images/avatar.png" alt="avatar" />
+                        <h3>User Name</h3>
+                        <p>Title</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2>Contact us</h2>
+                <div className="card contact">
+                    <p>Email: esitocompanyapps@gmail.com</p>
+                    <p>Phone: 8055214680</p>
+                </div>
+            </section>
+            <footer>
+                Footer
+            </footer>
         </div>
     )
 }
