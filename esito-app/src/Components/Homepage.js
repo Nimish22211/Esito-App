@@ -4,21 +4,21 @@ import './Homepage.css'
 function Homepage() {
     return (
         <div>
-            <header>
+            <header >
                 <span className="logo">Esito For Devs</span>
                 <div>
                     <ul>
-                        <li>Home</li>
-                        <li>Team</li>
-                        <li>About</li>
-                        <li>Contact</li>
-                        <li>Plans</li>
-                        <li>Bugs & Errors</li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#plans">Plans</a></li>
+                        <li><a href="#bugs">Bugs & Errors</a></li>
                         <li className="loginbtn">Login</li>
                     </ul>
                 </div>
             </header>
-            <main>
+            <main id="home">
                 <div>
                     <div className="get-started">
                         <div className="card">
@@ -35,7 +35,7 @@ function Homepage() {
                         </div>
                         <img src='Images/struggle illus.png' alt="struggling man" />
                     </div>
-                    <div className="bugs_error">
+                    <div className="bugs_error" id="bugs">
                         <h2>Latest Bugs & Errors</h2>
                         <div className="bugs_card">
                             <div className="card">
@@ -77,7 +77,7 @@ function Homepage() {
                     </div>
                 </div>
             </main>
-            <section>
+            <section id="plans">
                 <h2>Plans</h2>
                 <div className="card">
                     <div className="plans_card">
@@ -133,7 +133,7 @@ function Homepage() {
                     </div>
                 </div>
             </section>
-            <section>
+            <section id="team">
                 <h2>Team</h2>
                 <div className="team">
                     <div>
@@ -168,14 +168,14 @@ function Homepage() {
                     </div>
                 </div>
             </section>
-            <section>
+            <section id="contact">
                 <h2>Contact us</h2>
                 <div className="card contact">
                     <p>Email: esitocompanyapps@gmail.com</p>
                     <p>Phone: 8055214680</p>
                 </div>
             </section>
-            <footer>
+            <footer id="about">
                 Footer
             </footer>
         </div>
